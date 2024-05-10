@@ -1,0 +1,18 @@
+*  {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;	
+}
+/* Class selectors */
+.box  {
+	margin: 1rem;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 1rem;
+    background-color: burlywood;
+    color: azure;
+}
+aside {
+    width: 20em;
+    text-align:center;
+}
+	
