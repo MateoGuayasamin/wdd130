@@ -471,3 +471,165 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #004080;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Newsletter Section */
+.newsletter {
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newsletter .form-group {
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.newsletter label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.newsletter input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: white;
+    color: #004080;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color: #ccc;
+}
+
+/* Call to Action Section */
+.call-to-action {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.call-to-action a {
+    color: #004080;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.call-to-action a:hover {
+    text-decoration: underline;
+}
+
+/* CSS Grid Layout */
+.content-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.grid-item {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
