@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="The rafting Site plan includes the site purpuse, the target audience, brandig information, and a style guide for course website project.">
+    <title>Contact Us | WhiteWater Rafting</title>
+    <meta name="description" content="Get in touch with WhiteWater Rafting. Contact us for inquiries, reservations, and more information about our rafting adventures.">
     <meta name="author" content="Mateo Guayasamin">
     <link rel="stylesheet" href="styles/rafting.css"/>
-</head>
-    <title>❝Contact Us White Water Rafting.❞</title>
 </head>
 <body>
     <header>
@@ -20,62 +19,68 @@
         </nav>
     </header>
     <main>
-        <div class="contact-container">
-            <div class="contact-info">
-                <div class="info-box">
-                    <div class="icon">📍</div>
-                    <div class="info-text">
-                        <h3>OUR MAIN OFFICE</h3>
-                        <p>SoHo 94 Broadway St New York, NY 1001</p>
-                    </div>
-                </div>
-                <div class="info-box">
-                    <div class="icon">📞</div>
-                    <div class="info-text">
-                        <h3>PHONE NUMBER</h3>
-                        <p>234-9876-5400<br>888-0123-4567 (Toll Free)</p>
-                    </div>
-                </div>
-                <div class="info-box">
-                    <div class="icon">📠</div>
-                    <div class="info-text">
-                        <h3>FAX</h3>
-                        <p>1-234-567-8900</p>
-                    </div>
-                </div>
-                <div class="info-box">
-                    <div class="icon">📧</div>
-                    <div class="info-text">
-                        <h3>EMAIL</h3>
-                        <p>hello@theme.com</p>
-                    </div>
-                </div>
+        <section class="company-info">
+            <h1>Contact Us</h1>
+            <p><strong>Address:</strong> 123 River Lane, Rapids City, RC 12345</p>
+            <p><strong>Phone:</strong> (123) 456-7890</p>
+            <p><strong>Email:</strong> info@whitewaterrafting.com</p>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=..."></iframe>
             </div>
-            <div class="contact-form">
-                <h2>Contact Us</h2>
-                <form action="#" method="post">
-                    <input type="text" name="name" placeholder="Enter your Name" required>
-                    <input type="email" name="email" placeholder="Enter a valid email address" required>
-                    <textarea name="message" placeholder="Your Message" required></textarea>
-                    <button type="submit">SUBMIT</button>
-                </form>
+        </section>
+        
+        <section class="team">
+            <h2>Meet Our Team</h2>
+            <div class="profiles">
+                <figure>
+                    <img src="images/employee1.jpg" alt="Employee 1">
+                    <figcaption>Jane Doe - Tour Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.jpg" alt="Employee 2">
+                    <figcaption>John Smith - Safety Specialist</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee3.jpg" alt="Employee 3">
+                    <figcaption>Emily Johnson - Customer Support</figcaption>
+                </figure>
             </div>
-        </div>
+        </section>
+        
+        <section class="contact-form">
+            <h2>Contact Form</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <p>Purpose of your message:</p>
+                <input type="radio" id="inquiry" name="purpose" value="General Inquiry">
+                <label for="inquiry">General Inquiry</label><br>
+                <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                <label for="reservation">Reservation Question</label><br>
+                <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+                <label for="suggestion">Website Suggestion</label><br>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
     <footer>
         <nav class="sociallinks">
-          <p>&copy; 2024 White Water Rafting | Designed by Mateo</p>
-          <a href="https://facebook.org">
-            <img src="images/facebook.svg" alt="Facebook">
-          </a>
-          <a href="https://twitter.com">
-            <img src="images/twitter.svg" alt="Twitter">
-          </a>
-          <a href="https://instagram.svg">
-            <img src="images/instagram.svg" alt="Instagram">
-          </a>
+            <p>&copy; 2024 White Water Rafting | Designed by Mateo</p>
+            <a href="https://facebook.org"><img src="images/facebook.svg" alt="Facebook"></a>
+            <a href="https://twitter.com"><img src="images/twitter.svg" alt="Twitter"></a>
+            <a href="https://instagram.svg"><img src="images/instagram.svg" alt="Instagram"></a>
         </nav>
-
     </footer>
-    
 </body>
 </html>
