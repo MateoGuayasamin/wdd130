@@ -55,7 +55,28 @@
                 <form action="#" method="post">
                     <input type="text" name="name" placeholder="Enter your Name" required>
                     <input type="email" name="email" placeholder="Enter a valid email address" required>
+                    
+                    <p>Please select the purpose of your message:</p>
+                    <div>
+                        <input type="radio" id="general" name="purpose" value="general">
+                        <label for="general">General Inquiry</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="reservation" name="purpose" value="reservation">
+                        <label for="reservation">Reservation Question</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                        <label for="suggestion">Website Suggestion</label>
+                    </div>
+                    
                     <textarea name="message" placeholder="Your Message" required></textarea>
+                    
+                    <div>
+                        <input type="checkbox" id="subscribe" name="subscribe">
+                        <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                    </div>
+                    
                     <button type="submit">SUBMIT</button>
                 </form>
             </div>
