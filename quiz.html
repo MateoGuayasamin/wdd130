@@ -9,31 +9,92 @@
     <link rel="stylesheet" href="styles/quiz.css">
 </head>
 <body>
-    <h1>Basic HTML and CSS Quiz</h1>
-    <form action="#" method="post">
-        <div class="form-group">
-            <label for="q1">1. What does the acronym CSS stand for?</label>
-            <input type="text" id="q1" name="q1">
+    <header>
+        <img src="images/logo.png" alt="Rafting Company Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="info-box">
+                    <div class="icon">📍</div>
+                    <div class="info-text">
+                        <h3>OUR MAIN OFFICE</h3>
+                        <p>SoHo 94 Broadway St New York, NY 1001</p>
+                    </div>
+                </div>
+                <div class="info-box">
+                    <div class="icon">📞</div>
+                    <div class="info-text">
+                        <h3>PHONE NUMBER</h3>
+                        <p>234-9876-5400<br>888-0123-4567 (Toll Free)</p>
+                    </div>
+                </div>
+                <div class="info-box">
+                    <div class="icon">📠</div>
+                    <div class="info-text">
+                        <h3>FAX</h3>
+                        <p>1-234-567-8900</p>
+                    </div>
+                </div>
+                <div class="info-box">
+                    <div class="icon">📧</div>
+                    <div class="info-text">
+                        <h3>EMAIL</h3>
+                        <p>hello@theme.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h2>Contact Us</h2>
+                <form action="#" method="post">
+                    <input type="text" name="name" placeholder="Enter your Name" required>
+                    <input type="email" name="email" placeholder="Enter a valid email address" required>
+                    
+                    <p>Please select the purpose of your message:</p>
+                    <div>
+                        <input type="radio" id="general" name="purpose" value="general">
+                        <label for="general">General Inquiry</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="reservation" name="purpose" value="reservation">
+                        <label for="reservation">Reservation Question</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                        <label for="suggestion">Website Suggestion</label>
+                    </div>
+                    
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    
+                    <div>
+                        <input type="checkbox" id="subscribe" name="subscribe">
+                        <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                    </div>
+                    
+                    <button type="submit">SUBMIT</button>
+                </form>
+            </div>
         </div>
-        <div class="form-group">
-            <label for="q2">2. How are id and class attributes selected in CSS?</label>
-            <textarea id="q2" name="q2"></textarea>
-        </div>
-        <div class="form-group">
-            <label for="q3">3. Which of the following is a valid CSS comment?</label>
-            <select id="q3" name="q3">
-                <option value="" selected disabled>Choose One ...</option>
-                <option value="1">/* This is a comment */</option>
-                <option value="2">// This is a comment</option>
-                <option value="3"># This is a comment</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="q4">4. What is the bottom margin given this declaration?</label>
-            <pre>margin: 10px 5px 15px;</pre>
-            <input type="number" id="q4" name="q4">
-        </div>
-        <button type="submit">Submit Quiz</button>
-    </form>
+    </main>
+    <footer>
+        <nav class="sociallinks">
+          <p>&copy; 2024 White Water Rafting | Designed by Mateo</p>
+          <a href="https://facebook.org">
+            <img src="images/facebook.svg" alt="Facebook">
+          </a>
+          <a href="https://twitter.com">
+            <img src="images/twitter.svg" alt="Twitter">
+          </a>
+          <a href="https://instagram.com">
+            <img src="images/instagram.svg" alt="Instagram">
+          </a>
+        </nav>
+    </footer>
 </body>
 </html>
