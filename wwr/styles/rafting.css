@@ -271,3 +271,41 @@ footer {
 .contact-form button:hover {
     background-color: var(--secondary-color);
 }
+.map iframe {
+    width: 100%;
+    height: 300px;
+    border: none; /* Ensure inline border is removed */
+}
+
+.team .profiles {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin: 5px 0;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: var(--secondary-color);
+}
