@@ -1,15 +1,14 @@
 .callout {
-	
+    width: 500px;
+    margin: 100px;
+    border: 100px;
+    padding: 100px;
+    background-color: blue;
+    color: white;
+
 }
 
-.callout img {
-	
-}
+.callout img {}
 
-blockquote {
-	
-}
-
-cite {
-	
-}
+blockquote {}
+cite {}
