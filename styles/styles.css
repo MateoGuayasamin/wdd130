@@ -52,9 +52,9 @@ aside img {
 main img {
     width: 150px;
     height: auto;
-    border: auto;
-    padding: auto;
-    box-shadow: auto;
+    border: 2px solid black;
+    padding: 10px;
+    box-shadow: 5px 5px 5px grey;
 }
 
 footer {
