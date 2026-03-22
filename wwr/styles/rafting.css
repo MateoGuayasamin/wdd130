@@ -46,6 +46,7 @@ article {
 .socialmedia a {
 
     text-decoration: none;
+    color: var(--secondary-color);
 }
 
 .hero {
@@ -56,6 +57,7 @@ article {
     display: block;
     width: 100%;
     height: auto;
+    color: var(--accent2-color);
 }
 
 h1 {
