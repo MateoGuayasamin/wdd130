@@ -202,4 +202,9 @@ button:hover {
 
 iframe {
     border: none;
+    display: block;
+    /* Opcional: ayuda con el espaciado */
+    width: 100%;
+    /* Opcional: para que sea responsivo */
+    max-width: 400px;
 }
