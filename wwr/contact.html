@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-      content="its a company webiste, helps to custumer to inform about company ">
+      content="Its a company website, helps customers to inform about the rafting company.">
     <meta name="author" content="Mateo Guayasamin">
-    <title>About Us and the rafting company name.</title>
+    <title>Contact Us | Rapid Adventures Rafting Co.</title>
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
@@ -22,111 +22,98 @@
         </nav>
     </header>
     <main>
-        <h1>Contact Us</h1>
+        <h1>Contact Us - Rapid Adventures Rafting Co.</h1>
+
         <section class="contact-info">
             <h2>Company Information</h2>
             <p><strong>Address:</strong> 123 River Road, Adventure City</p>
             <p><strong>Phone:</strong> +1 234 567 890</p>
             <p><strong>Email:</strong> info@rafting.com</p>
         </section>
+
         <div class="hero">
             <img src="images/rafting.jpg" alt="Rafting hero image">
-            <h1>Rafting Company</h1>
+            <h2>Our River Adventures</h2>
             <article>
-                <h2>Our Mission</h2>
+                <h3>Our Mission</h3>
                 <p>Our mission is to provide safe, exhilarating, and unforgettable river
-                    experiences...
-                </p>
+                    experiences...</p>
             </article>
+
             <section class="map">
                 <h2>Our Location</h2>
-                <iframe src="https://www.google.com/maps/embed?pb=YOUR_MAP_LINK" width="400"
-                  height="300">
-                </iframe>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1000!2d0!3d0!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1234567890"
+                  width="400" height="300" style="border:0;" allowfullscreen=""
+                  loading="lazy"></iframe>
             </section>
+
             <section class="employees">
                 <h2>Meet Our Team</h2>
-
                 <figure>
-                    <img src="images/employee1.jpg" alt="Guide 1">
+                    <img src="images/employee1.jpg" alt="John Doe">
                     <figcaption>John Doe - Lead Guide</figcaption>
                 </figure>
-
                 <figure>
-                    <img src="images/employee2.jpg" alt="Guide 2">
+                    <img src="images/employee2.jpg" alt="Jane Smith">
                     <figcaption>Jane Smith - Safety Instructor</figcaption>
                 </figure>
-
                 <figure>
-                    <img src="images/employee3.jpg" alt="Guide 3">
+                    <img src="images/employee3.jpg" alt="Mike Lee">
                     <figcaption>Mike Lee - Trip Coordinator</figcaption>
                 </figure>
-
             </section>
 
-            <!-- FORM -->
             <section class="contact-form">
                 <h2>Send Us a Message</h2>
-
-                <form>
-                    <!-- NAME -->
+                <form action="#" method="post">
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" required>
 
-                    <!-- EMAIL -->
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" required>
 
-                    <!-- RADIO OPTIONS -->
                     <p>Purpose of Message:</p>
-
-                    <label>
-                        <input type="radio" name="purpose" value="general"> General Inquiry
+                    <label for="general">
+                        <input type="radio" id="general" name="purpose" value="general"> General
+                        Inquiry
                     </label>
 
-                    <label>
-                        <input type="radio" name="purpose" value="reservation"> Reservation Question
+                    <label for="reservation">
+                        <input type="radio" id="reservation" name="purpose" value="reservation">
+                        Reservation Question
                     </label>
 
-                    <label>
-                        <input type="radio" name="purpose" value="suggestion"> Website Suggestion
+                    <label for="suggestion">
+                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                        Website Suggestion
                     </label>
 
-                    <!-- MESSAGE -->
                     <label for="message">Message:</label>
                     <textarea id="message" name="message"></textarea>
 
-                    <!-- CHECKBOX -->
-                    <label>
-                        <input type="checkbox" name="subscribe">
+                    <label for="subscribe">
+                        <input type="checkbox" id="subscribe" name="subscribe">
                         Please subscribe me to the monthly newsletter
                     </label>
 
-                    <!-- SUBMIT BUTTON -->
                     <button type="submit">Send Message</button>
-
                 </form>
             </section>
-
         </div>
-
     </main>
+
     <footer>
-        <p>Rafting / Mateo Guayasamin© 2026</p>
+        <p>Rafting / Mateo Guayasamin © 2026</p>
         <nav class="socialmedia">
-            <a href="https://www.facebook.com/">
-                <img src="images/facebook.png" alt="Facebook Icon">
-            </a>
-            <a href="https://www.linkedin.com/">
-                <img src="images/linkedin.png" alt="LinkedIn Icon">
-            </a>
-            <a href="https://www.instagram.com">
-                <img src="images/instagram.png" alt="Instagram Icon">
-            </a>
+            <a href="https://www.facebook.com/"><img src="images/facebook.png"
+                  alt="Facebook Icon"></a>
+            <a href="https://www.linkedin.com/"><img src="images/linkedin.png"
+                  alt="LinkedIn Icon"></a>
+            <a href="https://www.instagram.com"><img src="images/instagram.png"
+                  alt="Instagram Icon"></a>
         </nav>
-
     </footer>
-
 </body>
 
 </html>
