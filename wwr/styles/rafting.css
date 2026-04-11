@@ -113,9 +113,9 @@ header img {
 nav {
     display: flex;
     justify-content: flex-end;
-    /* Pushes links to the right */
+
     gap: 20px;
-    /* Space between links */
+
 }
 
 nav a {
